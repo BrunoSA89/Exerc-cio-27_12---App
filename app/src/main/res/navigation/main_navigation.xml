@@ -9,5 +9,16 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.exercicio27_12app.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_first"/>
+    <fragment
+        android:id="@+id/fragment_second"
+        android:name="com.example.exercicio27_12app.fragment_second"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.example.exercicio27_12app.FragmentThree"
+        android:label="fragment_three"
+        tools:layout="@layout/fragment_three" />
 </navigation>
