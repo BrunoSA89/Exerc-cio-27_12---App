@@ -4,52 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".FragmentThree">
 
 
     <EditText
-        android:id="@+id/textNameCard"
+        android:id="@+id/textEstado"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Estado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <EditText
+        android:id="@+id/textPais"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="País"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <EditText
+        android:id="@+id/textCep"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:background="@color/white"
         android:inputType="textPersonName"
-        android:text="N. Cartão"
+        android:text="CEP"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="72dp" />
 
     <EditText
-        android:id="@+id/textCodSeg"
+        android:id="@+id/textLogradouro"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:background="@color/white"
         android:inputType="textPersonName"
-        android:text="Cód de Segurança"
+        android:text="Logradouro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="163dp" />
 
     <EditText
-        android:id="@+id/textCpf"
+        android:id="@+id/textBairro"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:background="@color/white"
         android:inputType="textPersonName"
-        android:text="CPF"
+        android:text="Bairro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="254dp" />
 
     <EditText
-        android:id="@+id/textRg"
+        android:id="@+id/textCidade"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:background="@color/white"
         android:inputType="textPersonName"
-        android:text="RG"
+        android:text="Cidade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
