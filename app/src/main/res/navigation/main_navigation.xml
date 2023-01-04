@@ -11,36 +11,22 @@
         android:label="HomeFragment"
         tools:layout="@layout/fragment_first">
         <action
-            android:id="@+id/action_login_fragment_second"
-            app:destination="@id/fragment_second" />
-        <action
-            android:id="@+id/action_login_fragment_four"
+            android:id="@+id/actionHomeToFragmentFour"
             app:destination="@id/fragment_four" />
-        <action
-            android:id="@+id/action_login_fragment_five"
-            app:destination="@id/fragmentFive" />
     </fragment>
     <fragment
         android:id="@+id/fragment_second"
-        android:name="com.example.exercicio27_12app.fragment_second"
+        android:name="com.example.exercicio27_12app.FragmentSecond"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" >
-        <action
-            android:id="@+id/action_fragment_second_for_fragment_three"
-            app:destination="@id/fragmentThree" />
-    </fragment>
+        tools:layout="@layout/fragment_second" />
     <fragment
         android:id="@+id/fragmentThree"
         android:name="com.example.exercicio27_12app.FragmentThree"
         android:label="fragment_three"
-        tools:layout="@layout/fragment_three" >
-        <action
-            android:id="@+id/action_fragmentThree_para_serviço"
-            app:destination="@id/fragment_four" />
-    </fragment>
+        tools:layout="@layout/fragment_three" />
     <fragment
         android:id="@+id/fragment_four"
-        android:name="com.example.exercicio27_12app.Fragment_four"
+        android:name="com.example.exercicio27_12app.FragmentFour"
         android:label="fragment_four"
         tools:layout="@layout/fragment_four" />
     <fragment

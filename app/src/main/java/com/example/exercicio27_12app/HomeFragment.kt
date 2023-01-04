@@ -6,6 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class HomeFragment : Fragment(R.layout.fragment_four) {
+class HomeFragment : Fragment(R.layout.fragment_first) {
 
 }

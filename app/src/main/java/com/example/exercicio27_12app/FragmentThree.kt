@@ -8,13 +8,13 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
 
-class FragmentThree : Fragment(R.id.fragmentThree) {
+class FragmentThree : Fragment(R.layout.fragment_three) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.Button4).setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentThree_para_serviço)
+//            findNavController().navigate(R.id.action_fragmentThree_para_serviço)
         }
     }
 
